@@ -64,6 +64,12 @@ It reflects the NGO’s mission and ensures visitors can quickly find support, c
 
 ---
 
+## References
+fauxels (2019). Photo Of People’s Hand On Top Of Wooden Table · Free Stock Photo. [online]
+Pexels. Available at: https://www.pexels.com/photo/photo-of-people-s-hand-on-top-ofwooden-
+table-3184397/
+
+---
 ## Notes
 This website was created for educational purposes only as part of a Portfolio of Evidence (POE).  
 All content is fictional and designed to demonstrate web development skills.  
