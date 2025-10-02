@@ -1,8 +1,8 @@
 # Helping Hands - Feeding Gqeberha Website
 
-**Module:** Web Development (Introduction) - WEDE5020/p/w  
-**Student Name:** Sachin Hart  
-**Student Number:** ST10465669  
+Module: Web Development (Introduction) - WEDE5020/p/w  
+Student Name: Sachin Harts  
+Student Number: ST10465669  
 
 ---
 
