@@ -64,6 +64,24 @@ It reflects the NGO’s mission and ensures visitors can quickly find support, c
 
 ---
 
+## Updated Timeline:
+
+Week 1–2: Planning & Requirements Gathering
+
+Week 3–4: Wireframing & Design Prototyping
+
+Week 5–7: Development (HTML, CSS, JS)
+
+Week 8–9: Feature Implementation (Forms, Blog, Donation System)
+
+Week 10: Testing & Debugging (Cross-browser & Mobile)
+
+Week 11: Content Upload & Final Adjustments
+
+Week 12: Launch & Deployment
+
+---
+
 ## References
 fauxels (2019). Photo Of People’s Hand On Top Of Wooden Table · Free Stock Photo. [online]
 Pexels. Available at: https://www.pexels.com/photo/photo-of-people-s-hand-on-top-ofwooden-
