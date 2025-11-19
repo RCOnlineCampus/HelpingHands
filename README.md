@@ -60,7 +60,15 @@ It reflects the NGO’s mission and ensures visitors can quickly find support, c
 - v1.2 – Added About, Services, Contact, and Enquiry pages  
 - v1.3 – Inserted content and structured CSS  
 - v1.4 – Added comments to all HTML files  
-- v1.5 – Created README.md and final polish  
+- v1.5 – Created README.md and final polish 
+- v1.6 - Added interactive features and enhancements
+    - JavaScript click-to-toggle functionality for `.service-card` impact cards  
+    - Scroll-based fade-in animation for content sections  
+    - Leaflet map integration for interactive location display  
+    - Header fixed issue with map overlapping (`z-index` adjustments)  
+    - Sitemap.xml added for SEO and search engine indexing  
+    - Meta description added for improved SEO  
+    - JS moved to bottom of HTML body for proper loading and DOM interaction 
 
 ---
 
