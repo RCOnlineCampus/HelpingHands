@@ -3,40 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get involved with Helping Hands Gqeberha. Volunteer, sponsor meals, donate, or partner with us to fight hunger in our community.">
+    <meta name="keywords" content="volunteer gqeberha, donate food, sponsor meals, helping hands volunteer, community service port elizabeth">
     <title>Get Involved - Helping Hands</title>
     <!-- External stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- ================= HEADER ================= -->
-<header>
-    <div class="container">
-        <div class="header-content">
-            <!-- Logo -->
-            <div class="logo">
-                <h1>Helping Hands</h1>
-                <p>Serving Gqeberha since 2012</p>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Helping Hands</h1>
+                    <p>Serving Gqeberha since 2012</p>
+                </div>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle">
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span></span>
+                </label>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="enquiry.html" class="current-page">Get Involved</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-
-            <!-- Hamburger Toggle -->
-            <input type="checkbox" id="nav-toggle" class="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label">
-                <span></span>
-            </label>
-
-            <!-- Navigation Menu -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="enquiry.html" class="current-page">Get Involved</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
         </div>
-    </div>
-</header>
+    </header>
 
     <!-- ================= MAIN CONTENT ================= -->
     <main class="main-content">
@@ -46,34 +45,37 @@
                 <h2>Get Involved</h2>
                 <p>There are many ways to support our mission of creating a hunger-free Gqeberha. Whether you can volunteer your time, sponsor a meal, or partner with us in other ways, every contribution makes a difference.</p>
             </div>
+
             <!-- ===== Get Involved Form ===== -->
             <div class="content-section">
                 <div class="form-container">
-                    <!-- Volunteer / Sponsorship Form -->
+                    <h3>How Can You Help?</h3>
+                    <p style="margin-bottom: 1.5rem; color: #555;">Fill out the form below and we'll provide you with details about costs, availability, and next steps based on your interest.</p>
+                    
                     <form action="#" method="post">
-                        <!-- Full Name (required) -->
+                        <!-- Full Name -->
                         <div class="form-group">
                             <label for="name">Full Name *</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" placeholder="e.g. Sarah Mthembu" required>
                         </div>
 
-                        <!-- Email (required) -->
+                        <!-- Email -->
                         <div class="form-group">
                             <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" placeholder="e.g. sarah@example.com" required>
                         </div>
 
-                        <!-- Phone (optional) -->
+                        <!-- Phone -->
                         <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number (Optional)</label>
+                            <input type="tel" id="phone" name="phone" placeholder="e.g. 076 123 4567">
                         </div>
 
-                         <!-- Dropdown: How they want to help -->
+                        <!-- How they want to help -->
                         <div class="form-group">
                             <label for="interest">How would you like to get involved? *</label>
                             <select id="interest" name="interest" required>
-                                <option value="">Please select...</option>
+                                <option value="">-- Please select an option --</option>
                                 <option value="volunteer">Volunteer at meal distributions</option>
                                 <option value="sponsor">Sponsor meals or events</option>
                                 <option value="donate">Donate clothing or supplies</option>
@@ -82,16 +84,19 @@
                                 <option value="question">I have a question</option>
                             </select>
                         </div>
+
                         <!-- Additional details -->
                         <div class="form-group">
-                            <label for="message">Tell us more about your interest or ask your question</label>
+                            <label for="message">Tell us more (Optional)</label>
                             <textarea id="message" name="message" placeholder="Please provide any additional details about how you'd like to help or what you'd like to know..."></textarea>
                         </div>
+
                         <!-- Submit button -->
-                        <button type="submit" class="submit-btn">Send My Message</button>
+                        <button type="submit" class="submit-btn">Submit Enquiry</button>
                     </form>
                 </div>
             </div>
+
             <!-- ===== Volunteer Opportunities ===== -->
             <div class="content-section">
                 <h2>Volunteer Opportunities</h2>
@@ -126,7 +131,6 @@
                     <li><strong>Equipment Donations:</strong> Kitchen equipment, serving supplies, or transportation</li>
                 </ul>
 
-                <!-- Corporate partnerships section -->
                 <h3>Corporate Partnerships</h3>
                 <p>We welcome partnerships with businesses that share our values. Corporate partners can:</p>
                 <ul style="margin-left: 2rem; margin-top: 1rem;">
@@ -139,23 +143,21 @@
             </div>
         </div>
     </main>
+
     <!-- ================= FOOTER ================= -->
     <footer>
         <div class="container">
             <div class="footer-content">
-                <!-- Footer brand info -->
                 <div class="footer-section">
                     <h3>Helping Hands</h3>
                     <p>Creating a hunger-free Gqeberha since 2012</p>
                 </div>
-                <!-- Footer quick info -->
                 <div class="footer-section">
                     <h3>Quick Links</h3>
                     <p>Weekly Meals: Thursdays 5-7 PM<br>
                     Clothing: First Saturday monthly<br>
                     Skills Training: Second Saturday monthly</p>
                 </div>
-                <!-- Footer social / contact -->
                 <div class="footer-section">
                     <h3>Connect With Us</h3>
                     <div class="social-links">
@@ -168,5 +170,8 @@
             <p>&copy; 2025 Helping Hands. All rights reserved. | A community project for educational purposes</p>
         </div>
     </footer>
+
+    <!-- Enquiry form validation & response script -->
+    <script src="enquiry.js"></script>
 </body>
 </html>
